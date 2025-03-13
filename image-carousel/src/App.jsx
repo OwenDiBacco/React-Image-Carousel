@@ -1,5 +1,5 @@
 import './App.css';
-import Button from ".components/Button";
+import Button from "./components/Button";
 import Header from "./components/Header";
 import Carousel from "./components/Carousel";
 
@@ -16,6 +16,7 @@ function App() {
       <Header heading={"Owen's Header"}/>
       <Carousel images={images}/>
       <Button text={"Nature"}/>
+      <Button text={"City"}/>
     </>
   )
 }
