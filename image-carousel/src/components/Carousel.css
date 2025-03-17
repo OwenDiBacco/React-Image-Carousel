@@ -1,0 +1,8 @@
+.carousel-container {
+    display: flex;
+    align-items: center; 
+}
+
+.carousel-image-frame img {
+    border-radius: 10px;
+}
